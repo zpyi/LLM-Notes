@@ -2,6 +2,7 @@ https://mp.weixin.qq.com/s?__biz=Mzg2NjcwNjcxNQ==&mid=2247484816&idx=1&sn=a119a3
 PP(PipeLine Parallel)
 
 DP(Data Parallel)
+聚合再下发梯度的操作，称为AllReduce。
 
 TP(Tensor Parallel)
 
