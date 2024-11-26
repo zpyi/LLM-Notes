@@ -6,4 +6,4 @@ DP(Data Parallel)
 聚合再下发梯度的操作，称为AllReduce。
 
 TP(Tensor Parallel)
-
+实际设计时，保证num_head // gpus是整数。一个gpu可以放1个或者多个head进行训练。
